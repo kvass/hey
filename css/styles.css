@@ -38,6 +38,7 @@ header>a span {
 }
 section.home {
 	display: flex;
+	flex-wrap: wrap;
 	margin: 10vw 9vw 2vw;
 }
 section.home a {
@@ -59,6 +60,7 @@ section.home a b {
 	color: #000;
 	font-size: 12px;
 }
+
 h1 {
 	position: absolute;
 	top: 60px;
@@ -79,6 +81,12 @@ h1 img {
 article {
 	margin: 10vw auto 2vw;
 	width: 800px;
+}
+article img {
+	margin-bottom: 1vw;
+	padding: 4vw;
+	max-width: 800px;
+	background: #fff;
 }
 
 form {
